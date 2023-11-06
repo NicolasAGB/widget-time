@@ -37,7 +37,6 @@ function updateClock() {
   let date = today.getDate();
   let day = weekdays[today.getDay()];
  
-  console.log(today);
   let month = monthNames[today.getMonth()];
 
   let hours = formatTime(today.getHours());
